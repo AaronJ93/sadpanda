@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* 
+	Author:		Axel Camacho
+	Date:		04/04/2021
+	Purpose: 	This is the page stylesheet for the Cairo Housing Authority website.
+	Filename:	cha-page-styles.css
+	
+	Styles for all screens.
+*/
+
+/* background-color, font-size, color, font-family, text-align, line-height, and margin*/
+
+/* HTML and body styles */
+html {
+	background-color: #193B69;
+	font-family: Calibri, Verdana, Geneva, sans-serif;
+	font-size: 14pt;
+}
+
+body {
+	background-color: #9CB3D2;
+	max-width: 100%;
+	min-height: 100%;
+	margin: 0px auto;
+}
+
+body > header {
+	background-color: #193B69;
+	color: white;
+	width: 100%;
+}
+
+h1#page-header {
+	display: block;
+	width: 100%;
+	margin: 0px auto;
+	font-size: 3em;
+	line-height: 1.5em;
+}
+
+#notice {
+	display: none;
+}
+
+iframe {
+	border: 1px black solid;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.4em;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	color: #193B69;
+}
+
+nav#top, article, #links{
+	border: 1px solid black;
+}
+
+nav#top ul li {
+	margin: 10px;
+}
+
+nav#top ul li a {
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+nav#top ul li a:hover, nav#top ul li a:active {
+	color: #9CB3D2;
+}
+
+article {
+	background-color: #9CB3D2;
+}
+
+article > h2, section > h2 {
+	color: #193B69;
+	font-size: 1.5em;
+}
+
+article > h1 {
+	font-size: 2em;
+}
+
+#page-name {
+	text-decoration: underline;
+}
+
+section#slideshow {
+	background-color: #9CB3D2;
+	padding-bottom: 15px;
+}
+
+section#slideshow h1 {
+	font-size: 2.5em;
+	color: rgb(111, 111, 111);
+	text-shadow: white -2px 0px 1px,  white -5px 0px 30px;
+	padding: 20px 15px 10px 0px;
+	text-align: right
+}
+
+section#slideshow p {
+	margin-bottom: 0px;
+}
+
+aside {
+	background-color: #6886B0;
+}
+
+aside > nav > h2 {
+	font-size: 2em;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 10px;
+	margin: 20px 0px 25px;
+	color: white;
+}
+
+aside > nav > ul > li {
+	color: white;
+	font-weight: bold;
+}
+
+aside > nav > ul > li:first-of-type {
+	color: white;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding-top: 20px;
+}
+
+footer {
+	width: 100%;
+}
+
+footer address{
+	color: white;
+	font-size: 0.9em;
+	text-align: center;
+	background-color: #193B69;
+	margin: 0px;
+	padding: 5px 0px;
+}

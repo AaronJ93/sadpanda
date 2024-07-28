@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* 
+	Author:		Axel Camacho
+	Date:		04/04/2021
+	Purpose: 	This is the layout stylesheet for the Cairo Housing Authority website.
+	Filename:	cha-layout.css
+*/
+
+@import url("cha-page-styles.css");
+
+/* Styles for Computers and tablets */
+@media only screen and (min-width: 667px) {
+	
+	body {
+      display: flex;
+      flex-flow: row wrap;
+	}
+	
+	body article {
+      flex-grow: 2;
+      flex-shrink: 1;
+      flex-basis: 400px;
+	  order: 3;
+    }
+	
+	body aside {
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: 250px;
+	  padding: 20px 20px;
+	}
+	
+	nav#top > ul {
+		display: flex;
+		background-color: #2D5182;
+		height: 50px;
+		justify-content: center;
+		align-items: center;
+    }
+	
+	nav#top ul li {
+      flex-grow: 0;
+      flex-shrink: 1;
+      flex-basis: 250px;
+    }
+	
+	nav#top ul li a {
+	display: block;
+	padding: 10% 5%;
+	}
+	
+	h1 {
+		color: #193B69;
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	
+	#page-name {
+		padding-bottom: 15px;
+		color: #193B69;
+	}
+	
+	article {
+		padding-top: 30px;
+		padding-left: 30px;
+	}
+	
+	article > h2 , section > h2{
+		line-height: 1.5em;
+	}
+	
+	footer {
+		order: 4
+	}
+	
+	#links li a {
+      color: white;
+      text-decoration: underline;
+	  font-size: 1.1em;
+	  font-weight: bold;
+    }
+	
+	article a {
+		color: #193B69;
+		text-decoration: underline;
+		font-weight: bold;
+	}
+	
+	header {
+	order: 1;
+	}
+	
+	form {
+		margin-left: 10px;
+		margin-bottom: 20px;
+	}
+	
+	#links {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	order: 2;
+	}
+
+	aside#links ul {
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 150px;
+	}
+	
+	nav#vertical-nav ul li {
+	text-align: center;
+	}
+	
+	a#navicon {
+	display: none;
+	}
+	
+	img#logo-image {
+		padding: 20px;
+		display: block;
+		width: 20%;
+		margin: 10px;
+	}
+	
+	.tftable {
+		min-width: 40%;
+		max-width: 75%;
+		min-height: 30%;
+		max-height: 40%;
+		margin: 5px;
+		padding: 40px 0px;
+	}
+	
+	.slideshow-container {
+		min-width: 50%;
+		max-width: 65%;
+	}
+}

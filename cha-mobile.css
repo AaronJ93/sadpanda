@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* 
+	Author:		Axel Camacho
+	Date:		04/04/2021
+	Purpose: 	This is the mobile device stylesheet for the Cairo Housing Authority website.
+	Filename:	cha-mobile.css
+*/
+
+/* Styles for Mobile Devices */
+@media only screen and (max-width: 666px) {
+	body > header {
+		min-width: 40%;
+		text-align: center;
+		padding: 0px;
+	}
+	
+	h1 {
+		padding-top: 20px;
+		text-align: center;
+		color: #193B69;
+		line-height: 32pt;
+	}
+	
+	#page-name {
+		padding-bottom: 15px;
+		color: #193B69;
+	}
+	
+	img#logo-image {
+		padding: 20px;
+		display: block;
+		width: 70%;
+		margin: 10px;
+	}
+	
+	#top ul {
+		background-color: #2D5182;
+	}
+	
+	#top ul li a {
+		display: block;
+		padding: 3% 5%;
+	}
+	
+	article > h2 , section > h2{
+		line-height: 1.5em;
+		text-align: center;
+	}
+	
+	p {
+		text-align: center;
+	}
+	
+	p:last-of-type {
+		padding-bottom: 20px;
+	}
+	
+	a[download]{
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	nav#top ul li a:hover, nav#top ul li a:active {
+		background-color: rgba(255, 255, 255, 0.1) ;
+	}
+	
+	a {
+		width: 100%;
+	}
+	
+	a#navicon {
+		display: block;
+		padding: 10px;
+	}
+	
+	ul#sites {
+		display: none;
+		padding: 10px;
+	}
+	
+	a#navicon:hover+ul, ul#sites:hover{
+		display: block;
+	}
+	
+	form
+	{
+		margin-left: 15%;
+		margin-right:25%;
+		margin-bottom: 20px;
+		width: 70%;
+	}
+	
+	iframe, h2#last-p {
+		display: none;
+	}
+	
+	aside {
+		display: none;
+	}
+	
+	table {
+		margin: 0px auto;
+	}
+	
+	.slideshow-container {
+		min-width: 40%
+	}
+}

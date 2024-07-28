@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* 
+	Author:		Axel Camacho
+	Date:		04/04/2021
+	Purpose: 	This is the printing format stylesheet for the Cairo Housing Authority website.
+	Filename:	cha-printer.css
+*/
+
+nav, aside, footer, h2#last-p, #slideshow, iframe, a#navicon, 
+#fair-house-title, #fair-house-p, table, form, #newsletter, #newsletter-p, #table, #table-p, #table-p1{
+	display: none;
+}
+
+html {
+	background-color: #193B69;
+	font-family: Calibri, Verdana, Geneva, sans-serif;
+	font-size: 14pt;
+}
+
+body {
+	background-color: #9CB3D2;
+	max-width: 100%;
+	min-height: 100%;
+	margin: 0px auto;
+}
+
+body > header {
+	background-color: #193B69;
+	color: white;
+	width: 100%;
+}
+
+body {
+    display: block;
+}
+	
+#page-name {
+	padding-bottom: 15px;
+}
+	
+#notice {
+	display: inline;
+	font-weight: bold;
+}	
+	
+article {
+	padding-top: 30px;
+	padding-left: 30px;
+	overflow: visible;
+}
+
+article a {
+	color: black;
+}
+	
+article > h2 , section > h2{
+	line-height: 1.5em;
+}
+	
+h1 {
+	font-size: 24pt;
+	margin: 0.1in 0in 0.1in 0.3in;
+}	
+	
+h2 {
+	font-size: 20pt;
+	margin: 0.1in 0in 0.1in 0.3in;
+}
+
+a {
+	margin-left: 30px;
+}
+
+#page-name {
+	font-size: 24pt;
+	text-decoration: underline;
+}
+	
+p {
+	font-size: 12pt;
+	margin: 0.1in 0in 0.1in 0.3in;
+	overflow: visible;
+}
+	
+header {
+	order: 1;
+}
+	
+form {
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+	
+a#navicon {
+	display: none;
+}
+	
+img#logo-image {
+	padding: 10px;
+	display: block;
+	width: 20%;
+	margin: 5px;
+}
+
+
+@page {
+	size: 8.5in 11in;
+	margin: 0.5in;
+}

@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* 
+	Author:		Axel Camacho
+	Date:		04/04/2021
+	Purpose: 	This is the table stylesheet for the Cairo Housing Authority website.
+	Filename:	cha-tables.css
+*/
+
+/* Office Hours Table */
+.tftable {
+	display: block;
+	font-size:14pt;
+	color:#333333;
+	border-width: 1px;
+	border-color: #729ea5;
+	border-collapse: collapse;
+}
+.tftable th {
+	font-size:12pt;
+	background-color:#acc8cc;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #729ea5;
+	text-align:left;
+}
+.tftable tr {
+	background-color:#d4e3e5;
+}
+.tftable td {
+	font-size: 0.8em;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #729ea5;
+}
+.tftable tr:hover {
+	background-color:#ffffff;
+}
+
+/* Housing Info Table*/
+table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 60%;
+  text-align: left;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+  text-align: center;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
