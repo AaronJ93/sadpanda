@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CHA - Gallery</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles/cha-reset.css" rel="stylesheet" media="all"/>
+    <link href="styles/cha-layout.css" rel="stylesheet" media="screen"/>
+    <link href="styles/cha-slideshow-styles.css" rel="stylesheet" media="screen" />
+    <link href="styles/cha-tables.css" rel="stylesheet" media="screen" />
+    <link href="styles/cha-mobile.css" rel="stylesheet" media="screen" />
+    <link href="styles/cha-printer.css" rel="stylesheet" media="print" />
+    <style>
+        /* Style for dropdown menu */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a id="logo-header"><img src="media/chalogo1-color-noback.png" alt="Cairo Housing Authority logo" id="logo-image"/></a>
+        <nav id="top"> 
+            <a id="navicon" href="index.html"><img src="media/cha-navicon.png" alt="navicon" /></a>
+            <ul id="sites" class="dropdown">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="policies.html">Policies</a></li>
+                <li><a href="housing-info.html">Housing Information</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">Gallery</a>
+                    <div class="dropdown-content">
+                        <a href="#">Community Rooms</a>
+                        <a href="#">Outdoor Facilities</a>
+                        <a href="#">Small Units</a>
+                        <a href="#">Large Units</a>
+                    </div>
+                </li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <h1 id="page-name">Photo Gallery</h1>
+        <p>This webpage contains a slideshow image gallery of the small rooms, large rooms, community rooms, and outdoor facilities.</p>
+        <p>There are 10 images of the Community Area, 8 images of the Outdoor Area, 7 images of the Small Unit, and 12 images of the Large Unit. This adds up to 37 total images.</p>
+        <p id="notice">Images have been restricted from printing.</p>
+        
+        <!-- Continue with slideshow as provided -->
+    </article>
+    <footer>
+        <address id="location">Cairo Housing Authority - 420 Main Street, Cairo, NE 68824</address>
+    </footer>
+</body>
+</html>
